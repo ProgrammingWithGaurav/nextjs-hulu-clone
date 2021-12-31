@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import Nav from '../components/Nav';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzsmUU2P-cE7uVynU0ztPtXC5tueLB19Cjdg&usqp=CAU" />
       </Head>
       <Header />
+      <Nav />
     </div>
   )
 }
